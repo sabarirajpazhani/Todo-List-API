@@ -1,27 +1,27 @@
 [
     {
       "id": 1,
-      "task": "Buy groceries",
+      "task": "FreshUp",
       "completed": false
     },
     {
       "id": 2,
-      "task": "Call mom",
+      "task": "Coding Practice",
       "completed": true
     },
     {
       "id": 3,
-      "task": "Finish homework",
+      "task": "Reading Book",
       "completed": false
     },
     {
       "id": 4,
-      "task": "Go for a run",
+      "task": "Web Development Practice",
       "completed": false
     },
     {
       "id": 5,
-      "task": "Prepare dinner",
+      "task": "Playing",
       "completed": true
     }
   ]

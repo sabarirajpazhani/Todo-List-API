@@ -3,11 +3,14 @@ const app = express();
 const dotenv = require("dotenv");
 const path = require("path");
 dotenv.config({path:path.join(__dirname,'config','config.env')});
+const connectDatabase = require('./config/connectDatabase');
 
 const todoGets = require('./routes/todoGet');
 const todoCreates = require('./routes/todoCreate');
 const todoUpdates = require('./routes/todoUpdate');
 const todoDeletes = require('./routes/todoDelete');
+
+connectDatabase();
 
 app.use(express.json());
 

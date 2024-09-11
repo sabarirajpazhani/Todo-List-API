@@ -1,6 +1,5 @@
 exports.getTodoGeting = (req,res,next)=>{
-    try{
-    }
+
     res.json({
         success:true,
         message:"Geting Route is working"

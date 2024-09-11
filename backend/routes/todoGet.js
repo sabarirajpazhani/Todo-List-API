@@ -1,6 +1,8 @@
 const express = require("express");
-const { getTodoGeting } = require("../controllers/todoGetController");
+const { getTodoGeting, getTodoSingle } = require("../controllers/todoGetController");
 const router = express.Router();
 
 router.route('/todo').get(getTodoGeting);
-router.route('todo/:id').get();
+router.route('/todo/:id').get(getTodoSingle);
+
+module.exports = router;

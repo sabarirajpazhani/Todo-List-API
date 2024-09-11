@@ -10,7 +10,7 @@ const todoCreates = require('./routes/todoCreate');
 app.use(express.json());
 
 app.use('/api/v1/',todoGets);
-app.use('/api/v1/',todoCreates);
+app.use('/api/v2/',todoCreates);
 
 app.listen(process.env.PORT,()=>{
     console.log(`Server is running on Port ${process.env.PORT} in ${process.env.NODE_ENV}`)

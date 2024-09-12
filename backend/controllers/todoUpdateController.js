@@ -1,6 +1,41 @@
-exports.todoUpdating = (req,res,next)=>{
-    res.json({
-        success: true,
-        message:"Updating is Working"
-    })
+const todoModel = require("../models/todoModels");
+
+exports.todoUpdating = async(req,res,next)=>{
+    try{
+        const task = req.body.task;
+        const completed = req.body.conpleted;
+
+        const todo = await todoModel.findById(req.params.id);
+        if(!todo){
+            return res.status(404).json({
+                message:"Todo nor found"
+            })
+        }
+
+        if(task!==undefined){
+            todo.task = task;
+        }
+    
+        if(completed!==undefined){
+            todo.completed = completed;
+        }
+        
+        const updateTodo = await todo.save();
+        res.json({
+            message:"Updated Successfully",
+            updateTodo
+        })
+    }
+    catch(err){
+        res.status(500).json({
+            message:"Internal Server error"
+        })
+    }
+
+
+
+
+    
+    
+
 }

@@ -87,3 +87,10 @@ exports.getTodoGeting = async (req,res,next)=>{
     }
 }
 ```
+
+### 3. Get a Single Todo
+
+- **URL**: `/api/v1/todo:id`
+- **Method**: `GET`
+- **Description**: Retrieves a single todo item by its ID.
+- **Responses**:

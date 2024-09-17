@@ -209,4 +209,15 @@ module.exports = mongoose.model('Todo', todoSchema);
 
 ## Database Connection
 The API connects to a MongoDB database using the following configuration:
+```javascript
+const mongoose = require('mongoose');
+
+const connectDatabase = () => {
+    return mongoose.connect(process.env.DB_URL).then((con) => {
+        console.log("Mongoose connected to host:" + con.connection.host);
+    });
+};
+
+module.exports = connectDatabase;
+```
 

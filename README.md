@@ -94,3 +94,24 @@ exports.getTodoGeting = async (req,res,next)=>{
 - **Method**: `GET`
 - **Description**: Retrieves a single todo item by its ID.
 - **Responses**:
+```javascript
+exports.getTodoSingle=async(req,res,next)=>{
+    try{
+        const todoID = await todoModel.findById(req.params.id);
+
+        if(!todoID){
+            return res.status(404).json({
+                message:"Todo Not Found"
+            })
+        }
+        res.json({
+            todoID
+        })
+    }
+    catch(err){
+        res.status(500).json({
+            message: "An error occurred while retrieving the todo"
+        })
+    }
+}
+```

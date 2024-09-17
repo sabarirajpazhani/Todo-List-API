@@ -205,5 +205,8 @@ const todoSchema = mongoose.Schema({
 });
 
 module.exports = mongoose.model('Todo', todoSchema);
+```
 
+## Database Connection
+The API connects to a MongoDB database using the following configuration:
 

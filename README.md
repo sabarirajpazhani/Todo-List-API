@@ -182,3 +182,8 @@ exports.todoDeleting = async (req, res, next) => {
     }
 };
 ```
+
+## MongoDB Schema
+The Todo API uses a simple and efficient MongoDB schema to store and manage tasks. Each todo item consists of a `task` field (a string that holds the description of the task) and a `completed` field (a boolean indicating whether the task is done or not). Additionally, every task is automatically timestamped with a `created_at` field to track when it was added. This schema ensures flexibility and scalability, allowing easy storage and retrieval of todos.
+
+

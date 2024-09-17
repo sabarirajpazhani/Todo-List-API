@@ -23,3 +23,37 @@ This is a simple Todo API built using Express and MongoDB, which allows you to p
 5. **Delete Todo**:
    - Delete tasks by their ID, keeping your todo list clutter-free.
    - Ensures error handling for non-existent tasks.
+
+
+Here's the API documentation for your GitHub README file:
+
+markdown
+Copy code
+# Todo API
+
+This is a simple Todo API built using Express and MongoDB, which allows you to perform CRUD operations on todo items.
+
+## Prerequisites
+
+- Node.js
+- MongoDB
+- Postman or similar API testing tool
+
+## Setup Instructions
+
+1. Clone the repository.
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Create a `.env` file in the root directory and add your MongoDB connection string:
+    ```
+    DB_URL=mongodb://localhost:27017/todoDB
+    ```
+4. Start the server:
+    ```bash
+    npm start
+    ```
+
+## API Endpoints
+### 1. Create a Todo

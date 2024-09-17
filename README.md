@@ -30,7 +30,7 @@ This is a simple Todo API built using Express and MongoDB, which allows you to p
 - **Method**: `POST`
 - **Description**: Creates a new todo item.
 - **Request Body**:
-    ```javascript
+```javascript
     exports.todoCreating=async(req, res, next)=>{
        try{
            const {task} = req.body;
@@ -60,4 +60,30 @@ This is a simple Todo API built using Express and MongoDB, which allows you to p
            })
        }
    }
-  ````
+````
+
+### 2. Get All Todos
+- **URL**: `/api/v1/todo`
+- **Method**: `GET`
+- **Description**: Retrieves all todo items.
+- **Responses**:
+```javascript
+exports.getTodoGeting = async (req,res,next)=>{
+    try{
+        const todos = await todoModel.find({});
+        if(!todos.length){
+            return res.status(404).json({
+                message:"No Todos Found"
+            })
+        }
+        res.json({
+            todos
+        })
+    }
+    catch(err){
+        res.status(500).json({
+            message:"Server Error, Please try again Later"
+        })
+    }
+}
+```

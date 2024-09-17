@@ -115,3 +115,9 @@ exports.getTodoSingle=async(req,res,next)=>{
     }
 }
 ```
+
+### 4. Update a Todo
+
+- **URL**: `/api/v3/todo/:id`
+- **Method**: `PATCH`
+- **Description**: Updates an existing todo item by its ID.

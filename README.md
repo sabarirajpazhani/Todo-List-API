@@ -30,7 +30,7 @@ This is a simple Todo API built using Express and MongoDB, which allows you to p
 - **Method**: `POST`
 - **Description**: Creates a new todo item.
 - **Request Body**:
-    ```json
+    ```javascript
     exports.todoCreating=async(req, res, next)=>{
        try{
            const {task} = req.body;

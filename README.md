@@ -66,7 +66,7 @@ This is a simple Todo API built using Express and MongoDB, which allows you to p
 - **URL**: `/api/v1/todo`
 - **Method**: `GET`
 - **Description**: Retrieves all todo items.
-- **Responses**:
+- **Request Body**:
 ```javascript
 exports.getTodoGeting = async (req,res,next)=>{
     try{
@@ -93,7 +93,7 @@ exports.getTodoGeting = async (req,res,next)=>{
 - **URL**: `/api/v1/todo:id`
 - **Method**: `GET`
 - **Description**: Retrieves a single todo item by its ID.
-- **Responses**:
+- **Request Body**:
 ```javascript
 exports.getTodoSingle=async(req,res,next)=>{
     try{
@@ -121,6 +121,7 @@ exports.getTodoSingle=async(req,res,next)=>{
 - **URL**: `/api/v3/todo/:id`
 - **Method**: `PATCH`
 - **Description**: Updates an existing todo item by its ID.
+- **Request Body**:
 ```javascript
 exports.todoUpdating = async(req,res,next)=>{
     try{
@@ -154,3 +155,12 @@ exports.todoUpdating = async(req,res,next)=>{
         })
     }
 ```
+### 5. Delete a Todo
+
+- **URL**: `/api/v4/todo/:id`
+- **Method**: `DELETE`
+- **Description**: Deletes a todo item by its ID.
+- **Request Body**:
+```javascript
+
+

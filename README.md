@@ -241,3 +241,8 @@ The API uses MongoDB for storing movie and booking data. You can connect the dat
 
 ![image](https://github.com/user-attachments/assets/28cd2190-5f06-43ae-b93f-b903290bd8a3)
 
+### 5. Delete Todo
+
+![image](https://github.com/user-attachments/assets/35b6f557-8c1f-4f73-9df1-26e02e40b944)
+
+

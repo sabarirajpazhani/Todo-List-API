@@ -220,4 +220,5 @@ const connectDatabase = () => {
 
 module.exports = connectDatabase;
 ```
-
+## Database Configuration
+The API uses MongoDB for storing movie and booking data. You can connect the database by setting the `DB_URL` in the `.env` file.

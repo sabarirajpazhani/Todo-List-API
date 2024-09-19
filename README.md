@@ -233,4 +233,6 @@ The API uses MongoDB for storing movie and booking data. You can connect the dat
 
 ![image](https://github.com/user-attachments/assets/44d6625d-65af-48d7-9523-2c8c663fd761)
 
+### 3. Creating the Task
 
+![image](https://github.com/user-attachments/assets/f4cfb44b-3154-49ab-aa99-2c583c29cbe7)

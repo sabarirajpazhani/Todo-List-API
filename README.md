@@ -225,7 +225,7 @@ The API uses MongoDB for storing movie and booking data. You can connect the dat
 
 ## API Testing Visuals
 
-### 1. Get All Movies
+### 1. Get All Task
 
 ![image](https://github.com/user-attachments/assets/1acccb57-4b82-4794-8dcc-88b5acaf561e)
 

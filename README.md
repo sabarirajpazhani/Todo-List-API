@@ -1,6 +1,6 @@
 # Todo API
 
-![images (1)](https://github.com/user-attachments/assets/e46a7ef3-a0a8-468f-8fa9-3018d8fb3121)
+![6602b4df0dc0803509452086_Ultimate Guide to Data Extraction API](https://github.com/user-attachments/assets/a06281b4-5ea2-405a-8c4b-6f477cc87f50)
 
 This is a simple Todo API built using Express and MongoDB, which allows you to perform CRUD operations on todo items.
 

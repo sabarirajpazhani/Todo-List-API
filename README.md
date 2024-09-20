@@ -25,8 +25,8 @@ This is a simple Todo API built using Express and MongoDB, which allows you to p
 5. **Delete Todo**:
    - Delete tasks by their ID, keeping your todo list clutter-free.
    - Ensures error handling for non-existent tasks.
-  
-![images (2)](https://github.com/user-attachments/assets/89eafcc8-350b-43b2-a2ef-540afd0a608a)
+
+![Uploading tiny-man-woman-standing-near-list-couple-ticking-off-items-check-list-flat-vector-illustration-daily-routine-busy-lifestyle-concept-banner-website-design-landing-web-page_74855-22067.jpg…]()
 
 ## API Endpoints
 ### 1. Create a Todo

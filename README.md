@@ -293,4 +293,6 @@ When developing and testing APIs, it's crucial to use reliable tools to ensure t
 - **Installation**: Available as a standalone application for Windows, macOS, and Linux.
 - **Website**: [Insomnia](https://insomnia.rest/)
 
-
+<div align="center">
+  <img src="https://seeklogo.com/images/I/insomnia-logo-A35E09EB19-seeklogo.com.png" alt="insomnia-logo" width="200"/>
+</div>

@@ -270,3 +270,7 @@ When developing and testing APIs, it's crucial to use reliable tools to ensure t
 
 - **Installation**: Available as a Visual Studio Code extension.
 - **Website**: [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a4ae7be2-6284-4898-83ac-313dc85ee238" alt="insomnia-logo" width="200"/>
+</div>

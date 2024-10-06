@@ -260,3 +260,6 @@ The API uses MongoDB for storing movie and booking data. You can connect the dat
   - MongoDB
   - Mongoose
 
+# API Testing Tools
+
+When developing and testing APIs, it's crucial to use reliable tools to ensure that your endpoints function as expected. Here are some popular API testing tools that you can use:

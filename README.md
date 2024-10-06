@@ -274,3 +274,14 @@ When developing and testing APIs, it's crucial to use reliable tools to ensure t
 <div align="center">
   <img src="https://github.com/user-attachments/assets/a4ae7be2-6284-4898-83ac-313dc85ee238" alt="insomnia-logo" width="200"/>
 </div>
+
+## 2. Postman API
+
+**Postman** is one of the most widely used API testing tools. It offers a comprehensive suite of features for designing, testing, and managing APIs.
+
+- **Installation**: Available as a standalone application for Windows, macOS, and Linux.
+- **Website**: [Postman](https://www.postman.com/)
+
+<div align="center">
+  <img src="https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png" alt="insomnia-logo" width="200"/>
+</div>
